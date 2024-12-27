@@ -1,4 +1,54 @@
-*{
- margin:0;
- padding:0;
+body {
+    margin: 1rem 2rem 2rem 2rem;
+    padding: 0;
+    background-color: rgb(230, 230, 250);
 }
+  
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(100, 82, 238);
+    font-weight: bold;
+  }
+  
+h2{
+    color:rgb(238,82,100);
+}
+  
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+  
+.youtube {
+    display: flex;
+    gap: 2rem;
+}
+  
+.youtube img {
+    height: 7rem;
+    width: 8rem;
+    opacity: 0.96;
+    display: block;
+}
+  
+.youtube figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+  
+a[target="_blank"]::after {
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+  
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    pointer-events: none;
+}
+  
