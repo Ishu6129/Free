@@ -1,0 +1,3 @@
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+Get-ExecutionPolicy
