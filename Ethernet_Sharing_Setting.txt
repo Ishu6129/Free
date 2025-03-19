@@ -1,0 +1,28 @@
+----------------
+Ethernet Sharing
+----------------
+
+View Network connections
+
+Ethernet properties
+
+TCP/IPV 4 Properties
+
+------
+Sender
+------
+
+IP       : 195.168.0.1
+Subnet IP: 255.255.255.0
+Default Gateway : 192.168.0.2
+
+--------
+Receiver 
+--------
+
+IP       : 195.168.0.2
+Subnet IP: 255.255.255.0
+Default Gateway : 192.168.0.2
+
+
+OK
