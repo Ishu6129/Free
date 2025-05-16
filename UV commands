@@ -1,0 +1,4 @@
+uv init <package_name>  # will create pakage with your dproject name
+uv run <program_name> # will run your file
+uv run --with 'pandas' --with 'numpy' app.py # help to run file without dependencies
+uv add --script app.py 'pandas' 'numpy'  # will add dependencies at the top of file
