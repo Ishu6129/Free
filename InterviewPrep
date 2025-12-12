@@ -1,0 +1,340 @@
+https://leetcode.com/discuss/post/7408325/ultimate-interview-preparation-roadmap-t-abjd/
+🔥 WHY THIS POST?
+Most tech companies today expect candidates to be strong in coding + CS fundamentals + system design.This post is designed to be a quick, high-impact revision sheet.
+
+📌 CONTENTS
+1. Frequently Asked Coding Problems — Topic-wise / Pattern-wise
+
+2. Must-Know CS Fundamentals — OS / DBMS / CN / OOPS
+
+3. 40 fresh, high-yield MCQs from OS, DBMS, CN, and DSA
+
+✅ SECTION 1 — MOST IMPORTANT CODING TOPICS (Pattern-wise Revision)
+Here are the core categories you must revise before any interview.
+I intentionally kept <10 problems per topic for rapid revision.
+
+🔷 ARRAY & STRING PATTERNS
+Two Sum
+
+Kadane’s Agorithm
+
+Sliding Window Maximum
+
+Merge Intervals
+
+Longest Substring Without Repeating
+
+Prefix Sum / Difference Array
+
+Search in Rotated Sorted Array
+
+KMP Pattern Matching
+
+🔷 DYNAMIC PROGRAMMING (DP)
+Climbing Stairs
+
+House Robber I/II
+
+Longest Increasing Subsequence
+
+0/1 Knapsack
+
+Longest Palindromic Substring
+
+Edit Distance
+
+Coin Change
+
+Partition Equal Subset Sum
+
+🔷 TREE & BINARY SEARCH TREE
+Inorder / Preorder / Postorder
+
+Lowest Common Ancestor
+
+Diameter of Binary Tree
+
+Balanced Binary Tree
+
+Symmetric Tree
+
+Binary Tree Right Side View
+
+Validate BST
+
+Level Order Traversal
+
+🔷 GRAPH ALGORITHMS
+BFS / DFS
+
+Topological Sort
+
+Cycle Detection (Directed/Undirected)
+
+Dijkstra’s Algorithm
+
+Union Find (Disjoint Set)
+
+Minimum Spanning Tree
+
+Number of Islands
+
+Bipartite Graph Check
+
+🔷 BIT MANIPULATION
+XOR Tricks
+
+Find Missing Number
+
+Count Set Bits
+
+Reverse Bits
+
+Power of Two
+
+Single Number I/II
+
+Bitmask DP Basics
+
+✅ SECTION 2 — MUST-KNOW CS FUNDAMENTALS (Interview Essentials)
+🖥 OPERATING SYSTEMS (OS)
+Process vs Thread
+
+Scheduling Algorithms (FCFS, SJF, RR, Priority)
+
+Deadlock (Detection, Avoidance, Prevention)
+
+Paging & Segmentation
+
+Page Replacement (LRU, FIFO, Optimal)
+
+Critical Section Problem
+
+Mutex vs Semaphore
+
+Thrashing
+
+🗄 DATABASE MANAGEMENT SYSTEM (DBMS)
+Keys (Primary, Candidate, Foreign, Composite)
+
+Normalization (1NF → BCNF)
+
+Joins (Inner, Left, Right, Cross)
+
+Indexing & B-Tree / B+ Tree
+
+Transactions & ACID
+
+Triggers, Views, Cursors
+
+Serializability (Conflict / View)
+
+🌐 COMPUTER NETWORKS (CN)
+OSI vs TCP/IP model
+
+Subnetting
+
+TCP vs UDP
+
+DNS, DHCP, HTTP/HTTPS, FTP, SMTP
+
+Flow & Error Control
+
+Switching & Routing
+
+IPv4 vs IPv6
+
+Network Devices (Hub, Switch, Router, Bridge)
+
+OOPS CONCEPTS
+Class & Objects
+
+Inheritance (Types & Modes)
+
+Polymorphism (Compile-time & Runtime)
+
+Abstract Class vs Interface
+
+Constructor, Destructor, Copy Constructor
+
+Operator Overloading
+
+Static Keyword
+
+Virtual Functions
+
+Exception Handling
+
+Encapsulation & Abstraction
+
+✅ SECTION 3 — HIGH-IMPACT MCQs
+Below are 40 fresh, high-yield MCQs from OS, DBMS, CN, and DSA.
+
+🖥 OPERATING SYSTEM — MCQs
+Which of the following is not a type of OS?
+A) Distributed OS B) Network OS C) Sequential OS D) Batch OS
+👉 Answer: C
+
+Which scheduling algorithm guarantees no starvation?
+A) Priority Scheduling B) SJF C) Round Robin D) LJF
+👉 Answer: C
+
+Thrashing occurs due to
+A) Too many interrupts B) Too many processes C) Excessive paging D) Low CPU
+👉 Answer: C
+
+Belady’s anomaly is seen in
+A) LRU B) FIFO C) Optimal D) LFU
+👉 Answer: B
+
+A program in execution is called
+A) Thread B) Process C) Job D) Task
+👉 Answer: B
+
+🗄 DBMS — MCQs
+Which isolation level prevents dirty reads?
+A) Read Uncommitted B) Read Committed C) Repeatable Read D) Serializable
+👉 Answer: B, C, D
+
+A minimal super key is called
+A) Primary key B) Candidate key C) Foreign key D) Composite key
+👉 Answer: B
+
+Which join returns all rows of left table?
+A) Inner Join B) Right Join C) Left Join D) Full Join
+👉 Answer: C
+
+Which index is balanced in height?
+A) Hash Index B) B-Tree C) Bitmap Index D) Dense Index
+👉 Answer: B
+
+Which anomaly is solved by BCNF but not 3NF?
+A) Insertion B) Deletion C) Transitive dependency D) Dependency preservation
+👉 Answer: C
+
+🌐 COMPUTER NETWORKS — MCQs
+Which protocol resolves domain names to IPs?
+A) DHCP B) DNS C) ARP D) FTP
+👉 Answer: B
+
+Which layer ensures reliable communication?
+A) Network B) Transport C) Session D) Presentation
+👉 Answer: B
+
+Which of the following is connection-oriented?
+A) UDP B) TCP C) ARP D) ICMP
+👉 Answer: B
+
+What is the default port for HTTPS?
+A) 21 B) 80 C) 443 D) 110
+👉 Answer: C
+
+Which device breaks collision domains?
+A) Hub B) Switch C) Repeater D) Bridge
+👉 Answer: B
+
+🧮 DATA STRUCTURES — MCQs
+Minimum nodes in AVL tree of height h is
+A) 2^h B) Fib(h+2)-1 C) h+1 D) h²
+👉 Answer: B
+
+Which structure supports O(1) average insert/delete at ends?
+A) Queue B) Stack C) Deque D) List
+👉 Answer: C
+
+Which traversal prints BST in sorted order?
+A) Preorder B) Inorder C) Postorder D) BFS
+👉 Answer: B
+
+Which data structure is used in Dijkstra’s algorithm?
+A) Stack B) Priority Queue C) Set D) Deque
+👉 Answer: B
+
+Hash collisions are resolved by
+A) Chaining B) Rehashing C) Open addressing D) All of the above
+👉 Answer: D
+
+🧵 SYSTEM DESIGN — MCQs
+Which consistency model is strongest?
+A) Eventual B) Causal C) Strong D) Weak
+👉 Answer: C
+
+CAP theorem states a distributed system can't have
+A) Consistency B) Availability C) Partition tolerance D) All three
+👉 Answer: D
+
+CDN improves
+A) Write latency B) Read latency C) Bandwidth D) Replication
+👉 Answer: B
+
+Load balancer helps with
+A) Scaling B) Replication C) Logging D) Caching
+👉 Answer: A
+
+Sharding reduces
+A) Single DB load B) Network traffic C) Cache misses D) CPU usage
+👉 Answer: A
+
+🔧 BIT MANIPULATION — MCQs
+To check if a number is power of two:
+A) x & (x+1) B) x | (x−1) C) x & (x−1) == 0 D) x >> 2
+👉 Answer: C
+
+XOR of a number with itself is
+A) Number B) Zero C) One D) Undefined
+👉 Answer: B
+
+Which retrieves the rightmost set bit?
+A) x & −x B) x | (x−1) C) x ^ (x−1) D) x >> 1
+👉 Answer: A
+
+Bitmask is used in
+A) DP B) Graph C) String D) Heap
+👉 Answer: A
+
+XOR is associative & commutative.
+A) True B) False
+👉 Answer: A
+
+🧩 LOGICAL REASONING / CODING LOGIC — MCQs
+Time complexity of Merge Sort:
+A) O(n²) B) O(n log n) C) O(n) D) O(log n)
+👉 Answer: B
+
+Maximum edges in undirected graph with n nodes:
+A) n² B) n(n-1) C) n(n-1)/2 D) 2n
+👉 Answer: C
+
+Space complexity of recursive DFS:
+A) O(1) B) O(n²) C) O(n) D) O(log n)
+👉 Answer: C
+
+Queue can be implemented using
+A) Stack B) Array C) Linked list D) All of the above
+👉 Answer: D
+
+BFS uses
+A) Stack B) Queue C) Deque D) Heap
+👉 Answer: B
+
+💡 GENERAL COMPUTER SCIENCE — MCQs
+ASCII uses
+A) 7 bits B) 8 bits C) 16 bits D) 32 bits
+👉 Answer: A
+
+Primary memory is
+A) ROM B) RAM C) Cache D) HDD
+👉 Answer: B
+
+Interpreter works
+A) Line-by-line B) Whole program C) Machine code only D) None
+👉 Answer: A
+
+Which is volatile?
+A) SSD B) RAM C) CD-ROM D) Hard Disk
+👉 Answer: B
+
+Bluetooth uses
+A) WiFi B) Infrared C) RF waves D) Fibre optics
+👉 Answer: C
+
